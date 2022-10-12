@@ -19,8 +19,14 @@
   width: 90%;
   height: 38%;
   margin-left: 1.2rem;
+  object-fit: cover;
+  filter: grayscale(0%);
 
   border-radius: 10px;
+}
+
+.kartdivi:hover .images {
+  filter: grayscale(100%);
 }
 
 .paragraf {
@@ -37,6 +43,7 @@
 
 .kartdivi:hover .paragraf {
   transform: translate(0px);
+  background-color: orange;
 }
 
 @media (max-width: 750px) {
